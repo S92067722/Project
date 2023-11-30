@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{    
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+html{
+    font-size: 72%;
+    background-color: #E8F1FF;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-top: 10%;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.header{
+    padding: 2rem 6%;
+    position: fixed;
+    width:auto;
+    top: 20px; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #146A5D;
+    border-radius: 20px;
+    height: 55px;
+}
+
+.header .logo img{
+    border-radius: 10px;
+    width: 203px;
+    height: 40px;
+}
+
+.header h1{
+    color: #ffffff;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: fixed;
+    margin-left: 450px;
+}
+
+.container{
+  margin-left: 99px;
+  width: 85%;
+  display: flex;
+}
+
+.img1{
+  margin-right: 112px;
+  width: 215px;
+  height: 215px;
+  border-radius: 15px;
+}
+
+.text h2{
+  color: #C5311B;
+  font: 700 27px "Inter", sans-serif; 
+}
+
+.text p{
+  color: #000;
+  font: 600 20px "Inter", sans-serif; 
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.break{
+  margin-top: 66px;
+}
+
+.btn{
+  background: #146A5D;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 228px;
+  height: 44px;
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  margin-left: 1091px;
+}
+
+
+
+

@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{    
+    font-family: 'Noto Sans', sans-serif;
+    margin: .1rem; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+html{
+    font-size: 72%;
+    background-color: #E8F1FF;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 2rem 6%;
+
+} 
+
+.btn{
+    color: white;
+    background-color: #146A5D;
+    margin-top: 3rem;
+    padding: .8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    position: absolute;
+    
+}
+
+.btn:hover{
+    color: black;
+}
+
+.header{
+    padding: 2rem 6%;
+    position: fixed;
+    width:auto;
+    height: 54px;
+    top: 20; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #146A5D;
+    border-radius: 20px;
+
+}
+
+
+
+.header .logo img{
+    border-radius: 10px;
+    width: 203px;
+    height: 40px;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: 'inder';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.header .navbar a:hover{
+    color: black;
+}
+
+#menu-btn{
+    font-size: 2.5rem;
+    border-radius: .5rem;
+    color: black;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 10rem;
+    padding-left: .5rem;
+}
+
+.home .image{
+    flex: 1 1 45rem;
+}
+
+.home .image img{
+    width: 120%;
+}
+
+.home .content{
+    flex:1 1 35rem;
+    position: static;
+    text-align: center;
+}
+
+
+.home .content h3{
+    font-family: 'Irish Grover', cursive;
+    font-style: normal;
+    color: #4A4040;
+    font-size: 5rem;
+    line-height: 55px;
+    text-align: center;
+}
+
+.home .content h4{
+    font-family: 'Irish Grover', cursive;
+    font-style: normal;
+    color: #C0524E;
+    font-size: 3rem;
+    line-height: 35px;
+    text-align: center;
+    
+}
+
+.home .content .btn{
+    position: sticky;
+   
+    
+}
+
+.home2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 10rem 9%;
+    padding-left: 25rem;
+    padding-right: 20rem;
+    justify-content: center;
+  
+}
+
+.home2 .image2{
+    flex: 1 1 62rem;
+    float: right;;
+}
+
+.home2 .image2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.home2 .image2 img{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  
+}
+
+
+.home2 .content2{
+    flex:5 5 25rem;
+    position: static;
+    text-align:left;
+
+}
+
+.home2 .content2 h3{
+    font-family: 'Irish Grover', cursive;
+    font-style: normal;
+    color: #4A4040;
+    font-size: 3rem;
+    line-height: 50px;
+    text-align: left;
+}
+
+.services{
+    display: grid;
+    gap: 12rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 20rem;
+}
+
+
+.services .service{
+    border: 2px solid #146A5D;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+.services .service img{
+    width: 80%;
+    border: 2px solid #146A5D;
+    border-radius: 80%;
+    padding: .1rem;
+    margin-top: -40%;
+   background-color: #E8F1FF;
+   
+    
+}
+
+.services .service p{
+    font-family: 'Irish Grover', cursive;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.services .service a{
+    position: static;
+}
+
+.about .aboutus{
+    display: grid;
+    gap: 12rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    padding-left: 10rem;
+    text-align: center;
+  
+}
+
+.about .aboutus .box{
+    border: 2px solid #146A5D;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.about .aboutus .box p{
+    text-align: center;
+    font-family: 'Irish Grover', cursive;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.about .aboutus .box .btn{
+    text-align: center;
+    position: static;
+}
+
+.review h2{
+    text-align: center;
+    font-family: 'Irish Grover', cursive;
+    font-style: normal;
+    font-size: 4rem;
+    color: #C0524E;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+
+.box{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 10rem;
+}
+
+.profile-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.user-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name strong{
+    color: #3d3d3d;
+    font-size: 2.1rem;
+    letter-spacing: .5px;
+}
+
+.user-name span{
+    color: #979797;
+    font-size: 1.5rem;
+}
+
+.reviews{
+    color: #f9d71c;
+   
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comments p{
+    font-size: 1.4rem;
+
+}
+
+.mainfooter .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 2rem;
+    border-top: .2rem solid #979797;
+}
+
+.mainfooter .box-container .footer h3{
+    font-size: 2.2rem;
+    color: #146A5D;
+    padding: 1rem 0;
+}
+
+.mainfooter .box-container .footer a{
+    display: block;
+    font-size: 1.7rem;
+    color: #4A4040;
+    padding: 1rem 0;
+}
+
+.mainfooter .box-container .footer a i{
+    padding-right: .7rem;
+    color: purple;
+}
+
+.mainfooter .box-container .footer a:hover{
+    color: #146A5D;
+    
+}
+
+.mainfooter .box-container .footer a:hover i{
+    color: blue;
+    padding-right: 2rem;
+    
+}
+
+.mainfooter .action{
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #C0524E;
+    border-top: .2rem solid #979797;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 2rem;
+    }
+
+    section{
+        padding: 2rem;
+    }
+}
+@media(max-width:768px){
+    #menu-btn{
+        display: initial;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 115%; right: 2rem;
+        border-radius: .5rem;
+        box-shadow: #ffffff;
+        width: 30rem;
+        background: #146A5D;
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: top right;
+        transition: none;
+    }
+
+    .header .navbar.active{
+        transform: scale(1);
+        opacity: 1;
+        transition:  .2s ease-out ;
+    }
+
+    .header .navbar a{
+        font-size: 2rem;
+        display: block;
+        margin: 2rem;
+    }
+
+}
+
+@media(max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+}
